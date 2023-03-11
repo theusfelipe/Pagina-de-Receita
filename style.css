@@ -14,14 +14,37 @@ figcaption {
 
 .ingredientes {
     margin-top: 30px;
+    padding: 400px;
+
 }
 
 
 
- 
-li {
+button {
     font-size: 16px;
     margin-top: 25px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.information,p {
+    font-size: 16px;
+    margin-top: 25px; 
+}
+
+
+li {
+    font-size: 16px;
+    margin-top: 25px; 
+}
+
+
+ 
+.modo-de-preparo {
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 40px;
     
 }   
 
@@ -44,19 +67,20 @@ h2 {
 
 
 body {
-    background-color: #FFFFFF;
+    background: #FFFFFF;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
 .waffle-image img {
-    margin-top: 5px;
-    padding: 10px;
-    height: 500;
+    margin-top: 15px;
+
+    object-fit: cover;
     width: 100%;
-    border-radius: 20px;
-    
+    height: 250px;
+    border-radius: 20px;   
 }
 
 
