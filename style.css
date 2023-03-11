@@ -5,16 +5,9 @@
 }
 
 
-
-figcaption {
-    font-size: 12px;
-    text-align: right;
-    
-}
-
 .ingredientes {
     margin-top: 30px;
-    padding: 400px;
+    padding: 40px;
 
 }
 
@@ -79,8 +72,22 @@ body {
 
     object-fit: cover;
     width: 100%;
+
     height: 250px;
     border-radius: 20px;   
 }
 
+.recipe-image {
+    text-align: right;
+    font-size: 12px;
+    color:  #8f8f8f;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
 
